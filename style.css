@@ -1,0 +1,67 @@
+body{
+    background-color: #efecea;
+    font-family: Montserrat;
+    color: #1e1e1e;
+    font-size: 17.5px;
+}
+
+.container{
+    padding: 5px;
+    height: 40em;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+img{
+    width: 25em;
+}
+
+.is-important{
+    background-color: #db736e;
+}
+
+p{
+    border-left:20px solid #db736e;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+    
+button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 19px;
+    background-color: #9acec4;
+    border-radius: 6px;   
+    color: #ffffff; 
+    text-align: center;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin: 0 25px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    outline: 0;
+    padding: 10px 45px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.item-to-do:hover .delete {
+    display: inline;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("images/trash.png") center center/cover no-repeat;
+    cursor: pointer;
+}
